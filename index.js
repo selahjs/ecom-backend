@@ -23,6 +23,17 @@ app.post('/api/user/login', (req, res)=>{
     //401 unauthorized
     res.status(401).json({error: 'Incorrect username or Password'})
 })
+
+app.post('/api/user/signup', (req, res)=>{
+    console.log(req.body)
+    const {username, password, repeatePassword} = req.body
+    if(password === repeatePassword){
+        res.status(201).json({username, token:'123abc'})
+        return
+    }
+    //401 unauthorized
+    res.status(401).json({error: 'Password must match!'})
+})
 app.listen(port, ()=>{
     console.log(`listning on port ${port}`)
 })
