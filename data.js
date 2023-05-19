@@ -9,7 +9,7 @@ module.exports =   [
         "available": "Yes",
         "productPrice": 299,
         "productStock": 4,
-        "productRating": 5.0,
+        "productRating": 3,
         "selected": false
     },
     {
@@ -35,7 +35,7 @@ module.exports =   [
         "available": "Yes",
         "productPrice": 2949,
         "productStock": 10,
-        "productRating": 5.0,
+        "productRating": 4,
         "selected": false
     },
     {
@@ -61,7 +61,7 @@ module.exports =   [
         "available": "Yes",
         "productPrice": 399,
         "productStock":76,
-        "productRating": 5.0,
+        "productRating": 4,
         "selected": false
     },
     {
@@ -74,7 +74,7 @@ module.exports =   [
         "available": "Yes",
         "productPrice": 599,
         "productStock": 74,
-        "productRating": 5.0,
+        "productRating": 4,
         "selected": false
     },
     {
@@ -87,7 +87,7 @@ module.exports =   [
         "available": "Yes",
         "productPrice": 199,
         "productStock": 5,
-        "productRating": 5.0,
+        "productRating": 4,
         "selected": false
     },
     {
@@ -100,7 +100,7 @@ module.exports =   [
         "available": "Yes",
         "productPrice": 799,
         "productStock": 8,
-        "productRating": 5.0,
+        "productRating": 4,
         "selected": false
     },
     {
@@ -113,7 +113,7 @@ module.exports =   [
         "available": "Yes",
         "productPrice": 1099,
         "productStock": 11,
-        "productRating": 5.0,
+        "productRating": 4,
         "selected": false
     },
     {
@@ -126,7 +126,7 @@ module.exports =   [
         "available": "Yes",
         "productPrice": 899,
         "productStock": 14,
-        "productRating": 5.0,
+        "productRating": 4,
         "selected": false
     },
     {
@@ -139,7 +139,7 @@ module.exports =   [
         "available": "Yes",
         "productPrice": 4999,
         "productStock": 19,
-        "productRating": 5.0,
+        "productRating": 4,
         "selected": false
     },
     {
@@ -152,7 +152,7 @@ module.exports =   [
         "available": "Yes",
         "productPrice": 8999,
         "productStock": 32,
-        "productRating": 5.0,
+        "productRating": 4,
         "selected": false
     },
     {
