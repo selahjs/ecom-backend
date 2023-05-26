@@ -5,11 +5,11 @@ const Schema = mongoose.Schema;
 const prouctSchema = new Schema({
     id:{
         type: Number,
-        required: true
+        required: false
     },
     imgUrl:{
         type: String,
-        required: true
+        required: false
     },
     productTitle:{
         type: String,
@@ -17,19 +17,19 @@ const prouctSchema = new Schema({
     },
     productColor:{
         type: String,
-        required: true
+        required: false
     },
     productCategory:{
         type: String,
-        required: true
+        required: false
     },
     accessories:{
         type: String,
-        required: true
+        required: false
     },
     available:{
         type: String,
-        required: true
+        required: false
     },
     productPrice:{
         type: Number,
@@ -41,7 +41,7 @@ const prouctSchema = new Schema({
     },
     productRating:{
         type: Number,
-        required: true
+        required: false
     },
     selected:{
         type: Boolean,
